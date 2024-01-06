@@ -30,7 +30,7 @@ const Topnav = () => {
           <div className="hover:white hover:cursor-pointer styling ">
             <a
               href="https://top.gg/bot/601205271578017813"
-              className="hover:text-white visited:text-white"
+              className="text-white hover:text-white visited:text-white"
               target="_blank"
             >
               Top.gg
@@ -44,7 +44,7 @@ const Topnav = () => {
           <div className="styling">
             <a
               href="https://www.patreon.com/gian447?fan_landing=true"
-              className="hover:text-white visited:text-white"
+              className="text-white hover:text-white visited:text-white"
               target="_blank"
             >
               Patreon
@@ -58,7 +58,7 @@ const Topnav = () => {
           />
           <a
             href="https://discord.com/oauth2/authorize?client_id=601205271578017813&permissions=8&scope=applications.commands%20bot"
-            className="hover:text-white visited:text-white"
+            className="text-white hover:text-white visited:text-white"
             target="_blank"
           >
             Invite
