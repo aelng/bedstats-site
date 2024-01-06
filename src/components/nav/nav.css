@@ -1,0 +1,31 @@
+.thing {
+  background-image: linear-gradient(90deg, red, red);
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  font-size: 1.5rem;
+  transition: background-size 0.5s ease;
+}
+
+.thing:hover {
+  background-size: 100% 5px;
+}
+
+.styling {
+  font-family: Belanosima !important;
+  font-weight: 600 !important;
+  line-height: 1.1 !important;
+  color: var(--text-color) !important;
+  text-align: center !important;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}

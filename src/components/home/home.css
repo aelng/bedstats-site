@@ -1,0 +1,39 @@
+.blinker { 
+    animation-name: blinker;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+    animation-duration: 1s;
+    
+    display: inline-block;
+    width: 7px;
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(white,.3);
+    background-color: rgb(255, 0, 0);
+  }
+  
+  @keyframes blinker { 
+    from { opacity: 1.0; } to { opacity: 0.0; }
+  }
+  
+  
+  h1 { display:flex; align-items: center; justify-content: center; font-size: 200px; }
+
+
+.heading {
+  margin: 0 0 1.5rem !important;
+  max-width: 800px !important;
+  font-family: Belanosima !important;
+  font-size: 80px !important;
+  font-weight: 600 !important;
+  line-height: 1.1 !important;
+  color: var(--text-color) !important;
+  text-align: center !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.descr {
+  font-family: Belanosima !important;
+}

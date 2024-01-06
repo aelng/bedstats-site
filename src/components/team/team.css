@@ -1,0 +1,27 @@
+.person {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, border-radius 0.2s ease, filter 0.3s !important;
+
+}
+
+.person:hover {
+    transform: scale(1.1);
+    border-radius: 3rem;
+}
+
+.heading {
+    margin: 0 0 1.5rem !important;
+    max-width: 800px !important;
+    font-family: Belanosima !important;
+    font-size: 80px !important;
+    font-weight: 600 !important;
+    line-height: 1.1 !important;
+    color: var(--text-color) !important;
+    text-align: center !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
