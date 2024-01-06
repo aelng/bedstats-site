@@ -10,7 +10,7 @@ const Homepage = () => {
         </h1>
 
         <p className="descr">
-          The #1 Bedwars statistics bot that delivers immediate, real time
+          A Bedwars statistics bot that delivers immediate, real time
           results.
         </p>
       </div>
